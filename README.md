@@ -1,0 +1,2 @@
+# sift-image-keypoint-feature-extraction
+Scale-invariant feature transform (SIFT) is an algorithm for detecting and describing local features in images (Lowe, D., IJCV Vol 64(2), pp.91–110, 2004). Key stages for SIFT are the following: (i) scale-space extrema detection, (ii) keypoint localization, (iii) Orientation assignment, and (iv) keypoint descriptor.In this python scripting, I have implemented the SIFT algorithm in python and tested with SIFT-test1.png and SIFT-test2.png image files.
