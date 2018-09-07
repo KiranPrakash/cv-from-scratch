@@ -127,7 +127,7 @@ def SIFT(image1,n):
                         c1+=1
             image_scaleList.append(image_extremum)
         image_extremumList.append(image_scaleList)
-    print "Number of Scaled Space Extremum Points:",c1
+    print("Number of Scaled Space Extremum Points:",c1)
     
     
     #Finding Candidate KeyPoints in each of the middle two layers of DoG
@@ -294,7 +294,7 @@ def SIFT(image1,n):
             
             image_scaleList.append(keyPointsPerScale)
         extremum_points.append(image_scaleList)
-    print "The initial key points locations at maxima and minima of the difference-of-Gaussian function:", c3
+    print("The initial key points locations at maxima and minima of the difference-of-Gaussian function:", c3)
     
     #keypoint selection on a natural image
     # Get All the KEYPOINTS
@@ -416,7 +416,7 @@ def SIFT(image1,n):
             c5 +=len(keyPointsPerScale)
             image_scaleList.append(keyPointsPerScale)
         c4.append(image_scaleList)
-    print "Principal Oreintation points after Thresholding",c5
+    print("Principal Oreintation points after Thresholding",c5)
  
     
     
